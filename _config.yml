@@ -3,22 +3,21 @@ title: BY Blog
 SEOTitle: 敖翀的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: sparkaochong@gmail.com
-description: "Every failure is leading towards success."
+description: "每一次失败都通向成功。"
 keyword: "BY, BY Blog, 敖翀的博客, aochong, 敖翀, Hadoop, Spark, Storm"
 url: "http://sparkaochong.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "www.aochongblog.cn"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/sparkaochong/sparkaochong.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "目标决定你将成为怎样的人!"
 sidebar-avatar: /img/personal_icon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
 zhihu_username:     aochong
 github_username:    sparkaochong
 facebook_username:  aochong
@@ -29,7 +28,6 @@ twitter_username:   aochong
 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
@@ -45,9 +43,6 @@ gems: [jekyll-paginate]
 
 
 # Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 highlighter: rouge
 kramdown:
